@@ -1,0 +1,155 @@
+/* шапка сайта */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(226, 222, 222);
+}
+
+header:before {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    text-align: center;
+    background: rgb(46, 40, 40);
+}
+
+header div {
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+}
+
+#skills {
+    color: rgb(171, 162, 162);
+}
+
+
+/* основной котент */
+
+.main-content-info {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info {
+    background: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 150px;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info img {
+    width: 200px;
+    margin: 15px;
+}
+
+.info h2,
+p {
+    margin: 15px;
+}
+
+.info-skills {
+    background-color: white;
+    height: 100px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.info-skills h2,
+ul {
+    margin: 15px;
+    display: flex;
+}
+
+.info-skills ul {
+    margin-left: -30px;
+}
+
+.info-skills li {
+    margin: 0 5px;
+    list-style-type: none;
+    background-color: rgb(63, 190, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.exp-work {
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.exp-work ul {
+    margin-left: -30px;
+}
+
+.exp-work div {
+    padding: 15px;
+}
+
+.study {
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.study section {
+    padding: 15px;
+}
+
+.study section ul {
+    margin-left: -30px;
+}
+
+.btn-1 {
+    float: right;
+    position: absolute;
+    top: 27%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    height: 70px;
+    width: 100px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-1:hover {
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacts ul {
+    margin-left: -35px;
+}
+
+#contacts ul li {
+    margin: 10px;
+    margin-top: -10px;
+}
+
+#contacts ul li a {
+    text-decoration: none;
+}
+
+
+/* подвал сайта */
